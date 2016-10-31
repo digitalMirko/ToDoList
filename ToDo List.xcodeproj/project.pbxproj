@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC43D0EE1DC7FE3500313D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43D0ED1DC7FE3500313D5B /* AppDelegate.swift */; };
+		AC43D0F01DC7FE3500313D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43D0EF1DC7FE3500313D5B /* ViewController.swift */; };
+		AC43D0F31DC7FE3600313D5B /* ToDo_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC43D0F11DC7FE3500313D5B /* ToDo_List.xcdatamodeld */; };
+		AC43D0F51DC7FE3600313D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC43D0F41DC7FE3600313D5B /* Assets.xcassets */; };
+		AC43D0F81DC7FE3600313D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC43D0F61DC7FE3600313D5B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC43D0EA1DC7FE3500313D5B /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC43D0ED1DC7FE3500313D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC43D0EF1DC7FE3500313D5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC43D0F21DC7FE3500313D5B /* ToDo_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_List.xcdatamodel; sourceTree = "<group>"; };
+		AC43D0F41DC7FE3600313D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC43D0F71DC7FE3600313D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC43D0F91DC7FE3600313D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC43D0E71DC7FE3500313D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC43D0E11DC7FE3500313D5B = {
+			isa = PBXGroup;
+			children = (
+				AC43D0EC1DC7FE3500313D5B /* ToDo List */,
+				AC43D0EB1DC7FE3500313D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC43D0EB1DC7FE3500313D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC43D0EA1DC7FE3500313D5B /* ToDo List.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC43D0EC1DC7FE3500313D5B /* ToDo List */ = {
+			isa = PBXGroup;
+			children = (
+				AC43D0ED1DC7FE3500313D5B /* AppDelegate.swift */,
+				AC43D0EF1DC7FE3500313D5B /* ViewController.swift */,
+				AC43D0F41DC7FE3600313D5B /* Assets.xcassets */,
+				AC43D0F61DC7FE3600313D5B /* Main.storyboard */,
+				AC43D0F91DC7FE3600313D5B /* Info.plist */,
+				AC43D0F11DC7FE3500313D5B /* ToDo_List.xcdatamodeld */,
+			);
+			path = "ToDo List";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC43D0E91DC7FE3500313D5B /* ToDo List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC43D0FC1DC7FE3600313D5B /* Build configuration list for PBXNativeTarget "ToDo List" */;
+			buildPhases = (
+				AC43D0E61DC7FE3500313D5B /* Sources */,
+				AC43D0E71DC7FE3500313D5B /* Frameworks */,
+				AC43D0E81DC7FE3500313D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToDo List";
+			productName = "ToDo List";
+			productReference = AC43D0EA1DC7FE3500313D5B /* ToDo List.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC43D0E21DC7FE3500313D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Digital Mirko";
+				TargetAttributes = {
+					AC43D0E91DC7FE3500313D5B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EQNJ9FG9YA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC43D0E51DC7FE3500313D5B /* Build configuration list for PBXProject "ToDo List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC43D0E11DC7FE3500313D5B;
+			productRefGroup = AC43D0EB1DC7FE3500313D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC43D0E91DC7FE3500313D5B /* ToDo List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC43D0E81DC7FE3500313D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC43D0F51DC7FE3600313D5B /* Assets.xcassets in Resources */,
+				AC43D0F81DC7FE3600313D5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC43D0E61DC7FE3500313D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC43D0F01DC7FE3500313D5B /* ViewController.swift in Sources */,
+				AC43D0EE1DC7FE3500313D5B /* AppDelegate.swift in Sources */,
+				AC43D0F31DC7FE3600313D5B /* ToDo_List.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC43D0F61DC7FE3600313D5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC43D0F71DC7FE3600313D5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC43D0FA1DC7FE3600313D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC43D0FB1DC7FE3600313D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AC43D0FD1DC7FE3600313D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EQNJ9FG9YA;
+				INFOPLIST_FILE = "ToDo List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmirko.ToDo-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC43D0FE1DC7FE3600313D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EQNJ9FG9YA;
+				INFOPLIST_FILE = "ToDo List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmirko.ToDo-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC43D0E51DC7FE3500313D5B /* Build configuration list for PBXProject "ToDo List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC43D0FA1DC7FE3600313D5B /* Debug */,
+				AC43D0FB1DC7FE3600313D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC43D0FC1DC7FE3600313D5B /* Build configuration list for PBXNativeTarget "ToDo List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC43D0FD1DC7FE3600313D5B /* Debug */,
+				AC43D0FE1DC7FE3600313D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC43D0F11DC7FE3500313D5B /* ToDo_List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC43D0F21DC7FE3500313D5B /* ToDo_List.xcdatamodel */,
+			);
+			currentVersion = AC43D0F21DC7FE3500313D5B /* ToDo_List.xcdatamodel */;
+			path = ToDo_List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC43D0E21DC7FE3500313D5B /* Project object */;
+}
