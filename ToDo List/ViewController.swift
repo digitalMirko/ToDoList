@@ -5,17 +5,16 @@
 //  Created by Mirko Cukich on 10/31/16.
 //  Copyright © 2016 Digital Mirko. All rights reserved.
 //
+//  Mac OS X App
 
 import Cocoa
 
-
 class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
     
-    @IBOutlet var textField: NSTextField!
-    @IBOutlet var importantCheckbox: NSButton!
-    @IBOutlet var tableView: NSTableView!
-    @IBOutlet var deleteBtn: NSButton!
-    
+    @IBOutlet var textField: NSTextField!           // Textfield box for entering table entries
+    @IBOutlet var importantCheckbox: NSButton!      // Checkbox add Important items
+    @IBOutlet var tableView: NSTableView!           // Left Side Table view ( important items, items)
+    @IBOutlet var deleteBtn: NSButton!              // Delete saved Table Entries
     
     var toDoItems : [ToDoItem] = []
     
@@ -75,12 +74,8 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
                 importantCheckbox.state = 0
                 
                 getToDoItems()
-                
-                
             }
-            
         }
-        
     }
     
     @IBAction func deleteClicked(_ sender: Any) {
@@ -129,17 +124,11 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
                 
             }
         }
-        
-        
-        
-        
         return nil
     }
     
     func tableViewSelectionDidChange(_ notification: Notification) {
         deleteBtn.isHidden = false
     }
-    
-    
 }
 
